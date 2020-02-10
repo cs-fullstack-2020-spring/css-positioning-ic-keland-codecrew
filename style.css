@@ -8,12 +8,17 @@ body{
 .header{
     border: 1px solid red;
 }
-.content{
+.content{ 
+    position: relative;
+    float: left; width: 45;
     border: 1px solid green;
 }
-.sidebar{
-    border: 1px solid  blue;
+.sidebar{ 
+    position: relative;
+    float: right; width: 45;
+    border: 1px solid blue;
 }
-.footer{
+.footer{ 
+    clear: both;
     border: 1px solid purple;
 }
